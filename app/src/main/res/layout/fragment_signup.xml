@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/l_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_bar_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/app_pink">
+
+            <ImageView
+                android:id="@+id/iv_arrow_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                android:padding="@dimen/iv_padding"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/app_white"
+                android:background="@drawable/iv_selector" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_header"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_arrow_back"
+                app:layout_constraintBottom_toBottomOf="@id/iv_arrow_back"
+                android:gravity="center"
+                android:textColor="@color/app_white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Sign Up" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/til_height"
+            app:layout_constraintTop_toBottomOf="@id/l_app_bar"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="First Name"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxBackgroundColor="@android:color/transparent"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:textColor="@color/app_eigengrau"
+                tools:text="Elekwachi"
+                android:background="@drawable/et_selector_til"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/til_height"
+            app:layout_constraintTop_toBottomOf="@id/til_first_name"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="Last Name"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxBackgroundColor="@android:color/transparent"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:textColor="@color/app_eigengrau"
+                tools:text="Jeremiah"
+                android:background="@drawable/et_selector_til"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/til_height"
+            app:layout_constraintTop_toBottomOf="@id/til_last_name"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="Email"
+            app:endIconMode="clear_text"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxBackgroundColor="@android:color/transparent"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:textColor="@color/app_eigengrau"
+                tools:text="talk2joshuasylvanus@gmail.com"
+                android:background="@drawable/et_selector_til"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/til_height"
+            app:layout_constraintTop_toBottomOf="@id/til_email"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="Password"
+            app:endIconMode="password_toggle"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxBackgroundColor="@android:color/transparent"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:textColor="@color/app_eigengrau"
+                tools:text="iiiiiiiiiii"
+                android:background="@drawable/et_selector_til"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/til_password"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="48dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Sign up"
+            android:textSize="@dimen/btn_text_size"
+            android:textColor="@color/app_white"
+            android:background="@drawable/btn_pink_selector"
+            android:stateListAnimator="@xml/btn_state_list_animator"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

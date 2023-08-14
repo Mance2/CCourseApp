@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CourseCorrect" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_pink</item>
+        <item name="colorPrimaryVariant">@color/app_pink</item>
+        <item name="colorOnPrimary">@color/app_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_blue</item>
+        <item name="colorSecondaryVariant">@color/app_blue</item>
+        <item name="colorOnSecondary">@color/app_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/app_pink</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/chivo_regular</item>
+    </style>
+
+    <style name="AppTheme.collapsingToolbar" parent="Theme.CourseCorrect">
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.splash" parent="Theme.CourseCorrect">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/app_pink</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+</resources>

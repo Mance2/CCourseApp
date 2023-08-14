@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Course Correct</string>
+    <string name="menu_main_action_leaderboard">Leaderboard</string>
+    <string name="menu_main_action_login">Logout</string>
+    <string name="menu_main_action_settings">Settings</string>
+    <string name="menu_main_action_contact_support">Contact Support</string>
+    <string name="menu_main_action_about_developer">About Developer</string>
+
+    <string name="estimated_reading_time_placeholder">Estimated Reading Time: %1$s minutes</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_pink_selector_radius">32dp</dimen>
+    <dimen name="app_bar_height">80dp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="iv_selector_radius">32dp</dimen>
+    <dimen name="et_height">55dp</dimen>
+    <dimen name="iv_padding">10dp</dimen>
+    <dimen name="til_height">60dp</dimen>
+</resources>

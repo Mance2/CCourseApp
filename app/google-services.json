@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "140173168362",
+    "firebase_url": "https://course-correct-b43ca-default-rtdb.firebaseio.com",
+    "project_id": "course-correct-b43ca",
+    "storage_bucket": "course-correct-b43ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140173168362:android:67dae82ad605b86573d193",
+        "android_client_info": {
+          "package_name": "app.slyworks.coursecorrect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140173168362-nu3iqts508vnvt8vu5cbb178h2cdn85l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSLyzmJyOPT8qptmG6WJpQSNLZucI2ORc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140173168362-nu3iqts508vnvt8vu5cbb178h2cdn85l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

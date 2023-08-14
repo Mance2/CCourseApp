@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_main_action_leaderboard">Leaderboard</string>
+    <string name="menu_main_action_login">Logout</string>
+    <string name="menu_main_action_about_developer">About Developer</string>
+</resources>
